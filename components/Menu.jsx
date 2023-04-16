@@ -40,7 +40,7 @@ const Menu = ({ showCategoryMenu, setshowCategoryMenu }) => {
                         <Link
                           onClick={() => setshowCategoryMenu(false)}
                           key={submenu.id}
-                          href="/"
+                          href="/category"
                           className="flex gap- justify-between"
                         >
                           <li className="h-12 flex justify-between items-center px-3 hover:bg-black/[0.03] rounded-md">

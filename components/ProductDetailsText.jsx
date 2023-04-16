@@ -13,7 +13,7 @@ const ProductDetailsText = () => {
         </div>
 
         <div className="product-price text-lg font-semibold">
-          MRP : $ 500.00
+          MRP : $ 500.00 &nbsp;
           <span className="text-md font-medium text-black/[0.5]">
             incl. of taxes
           </span>

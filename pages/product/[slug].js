@@ -2,6 +2,8 @@ import React from "react";
 import { IoMdHeartEmpty } from "react-icons/io";
 import Wrapper from "@/components/Wrapper";
 
+import RelativeProducts from "@/components/RelativeProducts";
+
 import ProductDetailsCarousel from "@/components/ProductDetailsCarousel";
 
 import ProductDetailsText from "@/components/ProductDetailsText";
@@ -96,6 +98,8 @@ const ProductsDetalis = () => {
           </div>
           {/* right end */}
         </div>
+
+        <RelativeProducts />
       </Wrapper>
     </div>
   );

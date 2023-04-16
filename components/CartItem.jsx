@@ -51,12 +51,12 @@ const CartItem = () => {
               </select>
             </div>
           </div>
-          <RiDeleteBin6Line />
         </div>
       </div>
 
       <div className="text-sm md:text-md font-medium text-black/[0.5] block">
         Men&apos; s Golf Shoes
+        <RiDeleteBin6Line className="text-lg" />
       </div>
     </div>
   );
